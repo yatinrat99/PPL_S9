@@ -120,6 +120,6 @@ export { teams };
 export const winners = Array.from({ length: 8 }, (_, i) => ({
   season: i + 1,
   name: `सीझन ${i + 1} विजेता`,
-  team: "विजेता संघ",
-  image: `/winners/season-${i + 1}.jpg.svg`,
+  team: `विजेता संघ ${2018 + i}`,
+  image: `/winners/season-${i + 1}.jpeg`,
 }));
